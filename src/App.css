@@ -1,0 +1,36 @@
+* {}
+
+html {
+  text-align: center;
+  background-color: navy;
+}
+
+div>section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100;
+
+}
+
+.movieCard {
+  margin: 2vh 2vw;
+  display: inline-block;
+  background: grey;
+  width: 20vw;
+  height: 49vh;
+  border-radius: 30px;
+  border: 1px solid beige;
+  box-shadow: 0 0 15px beige;
+  color: beige;
+}
+
+.movieCard:hover {
+  border: 1px solid turquoise;
+  box-shadow: 0 0 30px turquoise;
+}
+
+
+h4:nth-of-type(1) {
+  padding-top: 2vh;
+  font-size: 1.5rem;
+}
